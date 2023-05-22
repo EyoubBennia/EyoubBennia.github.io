@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Bienvenue sur mon portfolio</title>
+</head>
+<body>
+
+
+    <button id="btn" onclick="redirection()"></button>
+    <h1 class="hello">HELLO I'M</h1>
+    <h1 class="ines">INÈS PHILOTEE</h1>
+
+    <h3>Cliquez pour découvrir</h3>
+     <img class="cliquez" src="img/cliquez.png">
+
+    <header class="header" > 
+        <nav> 
+          <ul> 
+            <li class="effet"><a href="acceuil.html">Mon Portfolio</a></li> 
+            <li class="moncv.html"><a href="moncv.html">Mon CV</a></li>  
+            <li class="effet"><a href="contact.html">Contact</a></li> 
+          </ul> 
+        </nav> 
+         <img class="logoins" src="img/logoins.png"> 
+          <img class="logo1" src="img/in.png">
+           <img class="logo2" src="img/mail.png">
+    </header> 
+
+    
+    
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script>// Sélectionnez le header et le bouton
+    const header = document.querySelector('.header');
+    const btn = document.querySelector('#btn');
+    
+    // Configurez la timeline GSAP
+    const tl = gsap.timeline({ paused: true });
+    tl.to(header, { y: '-520%', duration: 1 });
+    
+    // Ajouter un événement de clic au bouton
+    btn.addEventListener('click', () => {
+      tl.play();
+    });
+    
+
+    function redirection() {
+    setTimeout(function(){
+        window.location.href = "acceuil.html";
+    }, 1000); // délai de en secondes avant la redirection
+}
+
+    </script>
+
+</body>
+</html>
