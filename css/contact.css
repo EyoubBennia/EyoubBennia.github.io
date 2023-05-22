@@ -1,0 +1,464 @@
+body {
+    overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+header {
+    margin-top: -30px;
+    font-family: Montserrat;
+   }
+  
+   .ul {
+      display: flex; /* afficher les éléments de la liste en ligne */
+      gap: 70px; /* ajouter un espacement horizontal de 50 pixels entre chaque élément de la liste */
+      font-weight: bold; /* définir le poids de la police comme gras */
+      font-size: 25px; /* définir la taille de police à 30 pixels */
+      padding: 50px ; /* ajouter un espace de remplissage de 30 pixels en haut et en bas de la liste */
+      background-color: #353535;
+      list-style-type: none;
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+  
+    header img {
+      width: 110px; /* définir la largeur de l'image à 50 pixels */
+      float:left; /* aligner l'image à gauche */
+      margin-top: -140px; /* déplacer l'image vers le haut de 70 pixels */
+      margin-left: 120px; /* déplacer l'image vers la droite de 60 pixels */  
+    }
+  
+    li{
+      position: relative;
+      left: 600px;
+    }
+  
+   
+  
+    .logo1 {
+      position: relative;
+      right: 110px;
+      top: 40px;
+      float: right;
+      margin-right: 30px;
+      width: 20px;
+      }
+  
+      .logo2 {
+        position: relative;
+        right: 20px;
+        top: 40px;
+        float: right;
+        margin-right: 70px;
+        width: 30px;
+      }
+     
+    .logoins {
+      position: relative;
+      top: 15px;
+      right: 20px;
+      transition: transform 0.5s;
+      cursor: pointer;
+    }
+  
+    .logoins:hover {
+      transform: scale(1.1);
+    }
+
+    a {
+      text-decoration: none; /* supprimer le soulignement des liens */
+      color: white; /* définir la couleur du texte sur blanc */
+    }
+
+    a:hover {
+      color: #C4A7CB;
+    }
+
+    #profil {
+        position: absolute;
+          top: 250px;
+          left: 230px;
+          display: grid;
+          grid-row-gap: 10px;
+          font-family: Montserrat;
+          text-shadow: 2px 2px 4px #C4A7CB; ;
+        color: #353535;
+      }
+
+      .profil {
+        position: absolute;
+        top: 250px;
+        left: 130px;
+      }
+
+      #icone-container {
+        position: absolute;
+          top: 180px;
+          left: 120px;
+        display: grid;
+        font-family: Montserrat;
+        color: #353535;
+        font-size: 21px;
+        gap: 40px;
+      }
+  
+      .icone-image {
+        width: 20px;
+        height: 20px;  
+      }
+
+      #qualite-container {
+        position: absolute;
+          top: 80px;
+          left: 100px;
+        display: grid;
+        font-family: Montserrat;
+        color: #353535;
+        font-size: 20px;
+      }
+  
+      .qualite-liste {
+        width: 500px;
+          height: 20px;  
+      }
+
+      .app {
+        margin-left: 500px;
+        width: 580px;
+        height: 440px;  
+      }
+    
+      .carre {
+        position: absolute;
+        top: 50px;
+        left: 550px;
+        z-index: -1;
+        width: 580px;
+        height: 440px;  
+        background-color: #C4A7CB; 
+      }
+    
+      .carre2 {
+        position: absolute;
+        top: -40px;
+        left: 450px;
+        z-index: -1;
+        width: 580px;
+        height: 440px;  
+        background-color: #353535; 
+      }
+
+
+
+
+
+      @media screen and (max-width: 600px) {
+
+        body {
+          overflow-x: hidden;
+          
+        }
+  
+        header {
+          position: absolute;
+          top: -10px;
+          font-family: Montserrat;
+          width: 100%;
+          height: 350px;
+      }
+      
+      
+      ul {
+      display: flex; /* afficher les éléments de la liste en ligne */
+      gap: 10px; /* ajouter un espacement horizontal de 50 pixels entre chaque élément de la liste */
+      font-weight: bold; /* définir le poids de la police comme gras */
+      /* définir la taille de police à 30 pixels */
+      padding: 20px ; /* ajouter un espace de remplissage de 30 pixels en haut et en bas de la liste */
+      background-color: #353535;
+      list-style-type: none;
+      height: 10px;
+      
+      }
+      
+      header img {
+      width: 50px; /* définir la largeur de l'image à 50 pixels */
+      float:left; /* aligner l'image à gauche */
+      
+      }
+      
+      li{
+      position: relative;
+      left: 100px;
+      margin-top: 10px;
+      margin-left: -50px;
+      font-size: 15px;
+      }
+      
+      .logo1 {
+        position: relative;
+        right: 5px;
+        top: 68px;
+        float: right;
+        margin-right: 30px;
+        width: 18px;
+        }
+      
+        .logo2 {
+          position: relative;
+          right: 5px;
+          top: 70px;
+          float: right;
+          margin-right: 70px;
+          width: 20px;
+        }
+       
+        .logoins {
+          position: relative;
+          top: 60px;
+          right: 100px;
+        }
+
+    
+        #profil {
+            position: absolute;
+              top: 200px;
+              left: 150px;
+              display: grid;
+              grid-row-gap: 10px;
+              font-family: Montserrat;
+              text-shadow: 2px 2px 4px #C4A7CB; ;
+            color: #353535;
+          }
+    
+          .profil {
+            position: absolute;
+            top: 200px;
+            left: 50px;
+          }
+    
+          #icone-container {
+            position: absolute;
+              top: 180px;
+              left: 50px;
+            display: grid;
+            font-family: Montserrat;
+            color: #353535;
+            font-size: 21px;
+            gap: 40px;
+          }
+      
+          .icone-image {
+            width: 20px;
+            height: 20px;  
+          }
+    
+          #qualite-container {
+            position: absolute;
+              top: 80px;
+              left: 100px;
+            display: grid;
+            font-family: Montserrat;
+            color: #353535;
+            font-size: 20px;
+          }
+      
+          .qualite-liste {
+            width: 500px;
+              height: 20px;  
+          }
+    
+          .app {
+           opacity: 0;
+          }
+        
+          .carre {
+            opacity: 0;
+          }
+        
+          .carre2 {
+            opacity: 0;
+          }
+    
+  
+                   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   @media only screen and (min-width: 768px) and (max-width: 1024px) {
+                    header {
+                
+                      font-family: Montserrat;
+                      width: 100%;
+                      height: 2000px;
+                     
+                  }
+                  
+                  ul {
+                  display: flex; /* afficher les éléments de la liste en ligne */
+                  font-weight: bold; /* définir le poids de la police comme gras */
+                  padding: 20px ; /* ajouter un espace de remplissage de 30 pixels en haut et en bas de la liste */
+                  background-color: #353535;
+                  list-style-type: none;
+                  height: 50px;
+                  }
+                  
+                  header img {
+                  width: 50px; /* définir la largeur de l'image à 50 pixels */
+                  float:left; /* aligner l'image à gauche */
+                  
+                  }
+                  
+                  li{
+                  position: relative;
+                  left: 200px;
+                  margin-top: 20px;
+                  font-size: 25px;
+                  
+                  }
+                  
+                  .logo1 {
+                    position: relative;
+                    right: 5px;
+                    top: 38px;
+                    float: right;
+                    margin-right: 30px;
+                    width: 21px;
+                    }
+                  
+                    .logo2 {
+                      position: relative;
+                      right: 5px;
+                      top: 40px;
+                      float: right;
+                      margin-right: 70px;
+                      width: 25px;
+                    }
+                   
+                  .logoins {
+                    position: relative;
+                    top: 35px;
+                    right: 50px;
+                  }
+
+                  #profil {
+                    position: absolute;
+                      top: 200px;
+                      left: 150px;
+                      display: grid;
+                      grid-row-gap: 10px;
+                      font-family: Montserrat;
+                      text-shadow: 2px 2px 4px #C4A7CB; ;
+                    color: #353535;
+                  }
+            
+                  .profil {
+                    position: absolute;
+                    top: 200px;
+                    left: 50px;
+                  }
+            
+                  #icone-container {
+                    position: absolute;
+                      top: 180px;
+                      left: 50px;
+                    display: grid;
+                    font-family: Montserrat;
+                    color: #353535;
+                    font-size: 21px;
+                    gap: 40px;
+                  }
+              
+                  .icone-image {
+                    width: 20px;
+                    height: 20px;  
+                  }
+            
+                  #qualite-container {
+                    position: absolute;
+                      top: 80px;
+                      left: 50px;
+                    display: grid;
+                    font-family: Montserrat;
+                    color: #353535;
+                    font-size: 20px;
+                  }
+              
+                  .qualite-liste {
+                    width: 500px;
+                      height: 20px;  
+                  }
+            
+
+                  .app {
+                    margin-top: 100px;
+                    margin-left: 500px;
+                    width: 280px;
+                    height: 140px;  
+                  }
+                
+                  .carre {
+                    position: absolute;
+                    top: 130px;
+                    left: 520px;
+                    z-index: -1;
+                    width: 280px;
+                    height: 140px;  
+                    background-color: #C4A7CB; 
+                  }
+                
+                  .carre2 {
+                    position: absolute;
+                    top: 80px;
+                    left: 480px;
+                    z-index: -1;
+                    width: 280px;
+                    height: 140px;  
+                    background-color: #353535; 
+                  }
+                 
+            
+          
+                
+  
+                 
+                
+                    }
+  
+    
+      
+      
+  
+  
+  
+  
+        
+  
+  
+  
+  
+  
+  
+    

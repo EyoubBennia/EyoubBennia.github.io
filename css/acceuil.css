@@ -1,0 +1,1744 @@
+
+body {
+    overflow-x: hidden;
+    height: 7500px; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+  
+
+ header {
+  margin-top: -30px;
+  font-family: Montserrat;
+ }
+
+ ul {
+    display: flex; /* afficher les éléments de la liste en ligne */
+    gap: 70px; /* ajouter un espacement horizontal de 50 pixels entre chaque élément de la liste */
+    font-weight: bold; /* définir le poids de la police comme gras */
+    font-size: 25px; /* définir la taille de police à 30 pixels */
+    padding: 50px ; /* ajouter un espace de remplissage de 30 pixels en haut et en bas de la liste */
+    background-color: #353535;
+    list-style-type: none;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+
+  header img {
+    width: 110px; /* définir la largeur de l'image à 50 pixels */
+    float:left; /* aligner l'image à gauche */
+    margin-top: -140px; /* déplacer l'image vers le haut de 70 pixels */
+    margin-left: 120px; /* déplacer l'image vers la droite de 60 pixels */  
+  }
+
+  li{
+    position: relative;
+    left: 600px;
+  }
+
+  .logo1 {
+    position: relative;
+    right: 110px;
+    top: 40px;
+    float: right;
+    margin-right: 30px;
+    width: 20px;
+    }
+
+    .logo2 {
+      position: relative;
+      right: 20px;
+      top: 40px;
+      float: right;
+      margin-right: 70px;
+      width: 30px;
+    }
+   
+  #logoins {
+    position: relative;
+    top: 15px;
+    right: 20px;
+    transition: transform 0.5s;
+    cursor: pointer;
+  }
+
+  #logoins:hover {
+    transform: scale(1.1);
+  }
+
+  a {
+    text-decoration: none; /* supprimer le soulignement des liens */
+    color: white; /* définir la couleur du texte sur blanc */
+    font-weight: bolder;
+  }
+
+  a:hover {
+    color: #C4A7CB;
+  }
+  
+
+
+
+  section h1{
+    position: relative;
+    left: 450px;
+    top: 200px;
+    font-size: 70px;
+    font-family: Montserrat;
+    color: #353535;
+  }
+
+  .bien {
+    position: relative;
+    top: 140px;
+    font-weight: bold;
+  }
+
+  .mon {
+    position: relative;
+    top: 90px;
+    font-weight: bold;
+  }
+
+  .portfolio {
+    position: relative;
+    top: -50px;
+    left: 650px;
+    color: #C4A7CB;
+    font-weight: bolder;
+  }
+
+  #app {
+    margin-left: -200px;
+    transition: transform 0.5s;
+    cursor: pointer;
+  }
+
+  #app:hover {
+    transform: scale(1.1);
+  }
+
+  .carre {
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+    background-color: #C4A7CB; 
+  }
+
+  .carre2 {
+    position: absolute;
+    top: 900px;
+    left: 100px;
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+    background-color: #353535; 
+  }
+
+  .titreapp {
+    position: absolute;
+    top: 1000px;
+    left: 900px;
+    font-size: 40px;
+    font-family: Montserrat;
+    color: #353535;
+    font-weight: bold;
+
+  }
+
+  .Papp {
+    font-size: 30px;
+    font-family: Montserrat;
+    position: absolute;
+    top: 1100px;
+    left: 650px;
+    color: #353535;
+  }
+
+  #lacoste {
+    margin-top: -90px;
+    margin-left: 800px;
+    width: 500px;
+    height: 325px;
+    transition: transform 0.5s;
+    cursor: pointer;
+  }
+
+  #lacoste:hover {
+    transform: scale(1.1);
+  }
+
+  .rectangle {
+    position: absolute;
+    top: 1670px;
+    left: 900px;
+    z-index: -1;
+    width: 500px;
+    height: 325px;
+    background-color: #C4A7CB; 
+  }
+
+  .rectangle2 {
+    position: absolute;
+    top: 1550px;
+    left: 760px; 
+    z-index: -1;
+    width: 500px;
+    height: 325px;
+    background-color: #353535; 
+  }
+
+  .titrelacoste {
+    position: absolute;
+    top: 1550px;
+    left: 200px;
+    font-size: 40px;
+    font-family: Montserrat;
+    color: #353535;
+    font-weight: bold;
+  }
+
+  .Placoste {
+    font-size: 30px;
+    font-family: Montserrat;
+    color: #353535;
+    position: absolute;
+    top: 1650px;
+    left: 100px;
+  }
+
+  #maquette {
+    margin-top: 500px;
+    margin-left: 150px;
+    width: 577px;
+    height: 325px;
+    transition: transform 0.5s;
+    cursor: pointer;
+  }
+
+  #maquette:hover {
+    transform: scale(1.1);
+  }
+
+  .rectangle3 {
+    position: absolute;
+    top: 2500px;
+    left: 200px;
+    z-index: -1;
+    width: 577px;
+    height: 325px;
+    background-color: #C4A7CB; 
+  }
+
+  .rectangle4 {
+    position: absolute;
+    top: 2400px;
+    left: 100px; 
+    z-index: -1;
+    width: 577px;
+    height: 325px;
+    background-color: #353535; 
+  }
+
+  .titremaquette {
+    position: absolute;
+    top: 2450px;
+    left: 850px;
+    font-size: 40px;
+    font-family: Montserrat;
+    color: #353535;
+    font-weight: bold;
+  }
+
+  .Pmaquette {
+    font-size: 30px;
+    font-family: Montserrat;
+    color: #353535;
+    position: absolute;
+    top: 2550px;
+    left: 800px;
+  }
+
+  #epicerie {
+    margin-top: 450px;
+    margin-left: 700px;
+    width: 577px;
+    height: 325px;
+    transition: transform 0.5s;
+    cursor: pointer;
+  }
+
+  #epicerie:hover {
+    transform: scale(1.1);
+  }
+
+  .Repicerie {
+    position: absolute;
+    top: 3250px;
+    left: 750px;
+    z-index: -1;
+    width: 577px;
+    height: 325px;
+    background-color: #C4A7CB; 
+  }
+
+  .Repicerie2 {
+    position: absolute;
+    top: 3150px;
+    left: 650px; 
+    z-index: -1;
+    width: 577px;
+    height: 325px;
+    background-color: #353535; 
+  }
+
+  .titreepicerie {
+    position: absolute;
+    top: 3150px;
+    left: 150px;
+    font-size: 40px;
+    font-family: Montserrat;
+    color: #353535;
+    font-weight: bold;
+  }
+
+  .Pepicerie {
+    font-size: 30px;
+    font-family: Montserrat;
+    color: #353535;
+    position: absolute;
+    top: 3250px;
+    left: 100px;
+  }
+
+  #virtuose {
+    margin-top: 300px;
+    margin-left: 150px;
+    width: 577px;
+    height: 325px;
+    transition: transform 0.5s;
+    cursor: pointer;
+  }
+
+  #virtuose:hover {
+    transform: scale(1.1);
+  }
+
+  .Rvirtuose {
+    position: absolute;
+    top: 3800px;
+    left: 100px; 
+    z-index: -1;
+    width: 577px;
+    height: 325px;
+    background-color: #353535; 
+  }
+
+  .Rvirtuose2 {
+    position: absolute;
+    top: 3900px;
+    left: 200px; 
+    z-index: -1;
+    width: 577px;
+    height: 325px;
+    background-color: #C4A7CB; 
+  }
+
+  .titrevirtuose {
+    position: absolute;
+    top: 3800px;
+    left: 850px;
+    font-size: 40px;
+    font-family: Montserrat;
+    color: #353535;
+    font-weight: bold;
+  }
+
+  .Pvirtuose {
+    font-size: 30px;
+    font-family: Montserrat;
+    color: #353535;
+    position: absolute;
+    top: 3900px;
+    left: 800px;
+  }
+
+  #sakura {
+    margin-top: 370px;
+    margin-left: 750px;
+    width: 500px;
+    height: 325px;
+    transition: transform 0.5s;
+    cursor: pointer;
+  }
+
+  #sakura:hover {
+    transform: scale(1.1);
+  }
+
+
+  .Rsakura {
+    position: absolute;
+    top: 4500px;
+    left: 700px; 
+    z-index: -1;
+    width: 500px;
+    height: 325px;
+    background-color: #353535; 
+  }
+
+  .Rsakura2 {
+    position: absolute;
+    top: 4600px;
+    left: 800px; 
+    z-index: -1;
+    width: 500px;
+    height: 325px;
+    background-color: #C4A7CB; 
+  }
+
+  .titresakura {
+    position: absolute;
+    top: 4500px;
+    left: 80px;
+    font-size: 40px;
+    font-family: Montserrat;
+    color: #353535;
+    font-weight: bold;
+  }
+
+  .Psakura {
+    font-size: 30px;
+    font-family: Montserrat;
+    color: #353535;
+    position: absolute;
+    top: 4650px;
+    left: 80px;
+  }
+
+  #conceptis {
+    position: absolute;
+    top: 5300px;
+    left: 200px; 
+    width: 400px;
+    height: 400px;
+    background-color: #353535; 
+    transition: transform 0.5s;
+    cursor: pointer;
+  }
+
+  #conceptis:hover {
+    transform: scale(1.1);
+  }
+
+  .Rconceptis {
+    position: absolute;
+    top: 5350px;
+    left: 250px; 
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+    background-color: #C4A7CB; 
+  }
+
+  .Rconceptis2 {
+    position: absolute;
+    top: 5250px;
+    left: 150px; 
+    width: 400px;
+    height: 400px;
+    z-index: -1;
+    background-color: #353535; 
+  }
+
+  .titreconceptis {
+    position: absolute;
+    top: 5250px;
+    left: 850px;
+    font-size: 40px;
+    font-family: Montserrat;
+    color: #353535;
+    font-weight: bold;
+  }
+
+  .Pconceptis {
+    font-size: 30px;
+    font-family: Montserrat;
+    color: #353535;
+    position: absolute;
+    top: 5400px;
+    left: 700px;
+  }
+
+  #futura {
+    position: absolute;
+    top: 6100px;
+    left: 1000px; 
+    background-color: #C4A7CB; 
+    transition: transform 0.5s;
+    cursor: pointer;
+  }
+
+  #futura:hover {
+    transform: scale(1.1);
+  }
+
+  .Rfutura {
+    position: absolute;
+    top: 6000px;
+    left: 900px; 
+    z-index: -1;
+    width: 326px;
+    height: 384px;
+    background-color: #353535; 
+  }
+
+  .Rfutura2 {
+    position: absolute;
+    top: 6250px;
+    left: 950px; 
+    z-index: -1;
+    width: 326px;
+    height: 384px;
+    background-color: #C4A7CB; 
+  }
+
+  .titrefutura {
+    position: absolute;
+    top: 6100px;
+    left: 250px;
+    font-size: 40px;
+    font-family: Montserrat;
+    color: #353535;
+    font-weight: bold;
+  }
+
+  .Pfutura {
+    font-size: 30px;
+    font-family: Montserrat;
+    color: #353535;
+    position: absolute;
+    top: 6200px;
+    left: 200px;
+  }
+
+  #affiche {
+    position: absolute;
+    top: 7000px;
+    left: 200px; 
+    width: 326px;
+    height: 384px;
+    transition: transform 0.5s;
+    cursor: pointer;
+  }
+
+  #affiche:hover {
+    transform: scale(1.1);
+  }
+
+  .Raffiche {
+    position: absolute;
+    top: 6900px;
+    left: 150px; 
+    z-index: -1;
+    width: 326px;
+    height: 384px;
+    background-color: #353535; 
+  }
+
+  .Raffiche2 {
+    position: absolute;
+    top: 7050px;
+    left: 250px; 
+    z-index: -1;
+    width: 326px;
+    height: 384px;
+    background-color: #C4A7CB; 
+  }
+
+  .titreaffiche {
+    position: absolute;
+    top: 7000px;
+    left: 800px;
+    font-size: 40px;
+    font-family: Montserrat;
+    color: #353535;
+    font-weight: bold;
+  }
+
+  .Paffiche {
+    font-size: 30px;
+    font-family: Montserrat;
+    color: #353535;
+    position: absolute;
+    top: 7100px;
+    left: 650px;
+  }
+
+  @media screen and (max-width: 600px) {
+
+    body {
+      overflow-x: hidden;
+      height: 2900px; 
+  }
+
+    header {
+    position: absolute;
+    top: 10px;
+    font-family: Montserrat;
+    width: 100%;
+    height: 350px;
+}
+
+ul {
+display: flex; /* afficher les éléments de la liste en ligne */
+gap: 20px; /* ajouter un espacement horizontal de 50 pixels entre chaque élément de la liste */
+font-weight: bold; /* définir le poids de la police comme gras */
+font-size: 15px; /* définir la taille de police à 30 pixels */
+padding: 20px ; /* ajouter un espace de remplissage de 30 pixels en haut et en bas de la liste */
+background-color: #353535;
+list-style-type: none;
+height: 50px;
+}
+
+header img {
+width: 50px; /* définir la largeur de l'image à 50 pixels */
+float:left; /* aligner l'image à gauche */
+
+}
+
+li{
+position: relative;
+left: 100px;
+margin-top: 15px;
+}
+
+.logo1 {
+  position: relative;
+  right: 5px;
+  top: 68px;
+  float: right;
+  margin-right: 30px;
+  width: 18px;
+  }
+
+  .logo2 {
+    position: relative;
+    right: 5px;
+    top: 70px;
+    float: right;
+    margin-right: 70px;
+    width: 20px;
+  }
+ 
+#logoins {
+  position: relative;
+  top: 70px;
+  right: 100px;
+}
+
+.bien {
+  position: relative;
+  top: 120px;
+  left: 50px;
+}
+
+.mon {
+  position: relative;
+  top: 38px;
+  left: 360px;
+}
+
+.portfolio {
+  position: relative;
+  top: 20px;
+  left: 170px;
+  color: #C4A7CB;
+}
+
+section h1{
+  position: relative;
+  left: 450px;
+  top: 200px;
+  font-size: 40px;
+  font-family: Montserrat;
+  color: #353535;
+}
+
+#app {
+  margin-left: -100px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  width: 400px;
+  height: 400px;
+}
+
+#app:hover {
+  transform: scale(1.1);
+}
+
+.carre {
+  position: absolute;
+  top: 390px;
+  left: 20px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #C4A7CB; 
+}
+
+.carre2 {
+  position: absolute;
+  top: 420px;
+  left: 50px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #353535; 
+}
+
+.titreapp {
+  position: absolute;
+  top: 360px;
+  left: 300px;
+  font-size: 20px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Papp {
+  font-size: 15px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 420px;
+  left: 220px;
+  color: #353535;
+}
+
+#lacoste {
+  position: relative;
+  top: 150px;
+ margin-left: 15px;
+  width: 150px;
+  height: 150px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+#lacoste:hover {
+  transform: scale(1.1);
+}
+
+.rectangle {
+  position: absolute;
+  top: 660px;
+  left: 340px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #C4A7CB; 
+}
+
+.rectangle2 {
+  position: absolute;
+  top: 695px;
+  left: 315px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #353535; 
+}
+
+.titrelacoste {
+  position: absolute;
+  top: 660px;
+  left: 50px;
+  font-size: 20px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Placoste {
+  font-size: 15px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 700px;
+  left: 10px;
+  color: #353535;
+}
+
+
+#maquette {
+  position: relative;
+  top: -200px;
+  margin-left: 15px;
+  width: 150px;
+  height: 150px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+#maquette:hover {
+  transform: scale(1.1);
+}
+
+.rectangle3 {
+  position: absolute;
+  top: 1000px;
+  left: 10px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #C4A7CB; 
+}
+
+.rectangle4 {
+  position: absolute;
+  top: 970px;
+  left: 40px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #353535; 
+}
+
+.titremaquette {
+  position: absolute;
+  top: 960px;
+  left: 270px;
+  font-size: 20px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Pmaquette {
+  font-size: 15px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 1010px;
+  left: 220px;
+  color: #353535;
+}
+
+#epicerie {
+  position: relative;
+  top: 100px;
+ margin-left: 200px;
+  width: 150px;
+  height: 150px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+#epicerie:hover {
+  transform: scale(1.1);
+}
+
+.Repicerie {
+  position: absolute;
+  top: 1300px;
+  left: 360px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #C4A7CB; 
+}
+
+.Repicerie2 {
+  position: absolute;
+  top: 1260px;
+  left: 400px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #353535; 
+}
+
+.titreepicerie {
+  position: absolute;
+  top: 1260px;
+  left: 80px;
+  font-size: 20px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Pepicerie {
+  font-size: 15px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 1320px;
+  left: 50px;
+  color: #353535;
+}
+
+#virtuose {
+  position: relative;
+  top: -170px;
+  margin-left: 15px;
+  width: 150px;
+  height: 150px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+#virtuose:hover {
+  transform: scale(1.1);
+}
+
+.Rvirtuose {
+  position: absolute;
+  top: 1560px;
+  left: 40px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #353535; 
+}
+
+.Rvirtuose2 {
+  position: absolute;
+  top: 1520px;
+  left: 10px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #C4A7CB; 
+}
+
+.titrevirtuose {
+  position: absolute;
+  top: 1520px;
+  left: 250px;
+  font-size: 20px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Pvirtuose {
+  font-size: 15px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 1580px;
+  left: 230px;
+  color: #353535;
+}
+
+#sakura {
+  position: relative;
+  top: 100px;
+ margin-left: 200px;
+  width: 150px;
+  height: 150px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+#sakura:hover {
+  transform: scale(1.1);
+}
+
+
+.Rsakura {
+  position: absolute;
+  top: 1790px;
+  left: 390px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #353535; 
+}
+
+.Rsakura2 {
+  position: absolute;
+  top: 1820px;
+  left: 360px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #C4A7CB; 
+}
+
+.titresakura {
+  position: absolute;
+  top: 1780px;
+  left: 50px;
+  font-size: 20px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Psakura {
+  font-size: 15px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 1850px;
+  left: 50px;
+  color: #353535;
+}
+
+#conceptis {
+  position: relative;
+  top: 190px;
+  left: 30px;
+  width: 150px;
+  height: 150px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+#conceptis:hover {
+  transform: scale(1.1);
+}
+
+.Rconceptis {
+  position: absolute;
+  top: 2040px;
+  left: 30px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #C4A7CB; 
+}
+
+.Rconceptis2 {
+  position: absolute;
+  top: 2060px;
+  left: 60px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #353535; 
+}
+
+.titreconceptis {
+  position: absolute;
+  top: 2040px;
+  left: 300px;
+  font-size: 20px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Pconceptis {
+  font-size: 15px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 2100px;
+  left: 230px;
+  color: #353535;
+}
+
+#futura {
+  position: relative;
+  top: 500px;
+  left: 200px;
+  width: 150px;
+  height: 150px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+#futura:hover {
+  transform: scale(1.1);
+}
+
+.Rfutura {
+  position: absolute;
+  top: 2380px;
+  left: 380px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #353535; 
+}
+
+.Rfutura2 {
+  position: absolute;
+  top: 2350px;
+  left: 350px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #C4A7CB; 
+}
+
+.titrefutura {
+  position: absolute;
+  top: 2350px;
+  left: 50px;
+  font-size: 20px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Pfutura {
+  font-size: 15px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 2400px;
+  left: 30px;
+  color: #353535;
+}
+
+#affiche {
+  position: relative;
+  top: 800px;
+  left: -280px;
+  width: 150px;
+  height: 150px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+#affiche:hover {
+  transform: scale(1.1);
+}
+
+.Raffiche {
+  position: absolute;
+  top: 2640px;
+  left: 60px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #353535; 
+}
+
+.Raffiche2 {
+  position: absolute;
+  top: 2680px;
+  left: 20px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #C4A7CB; 
+}
+
+.titreaffiche {
+  position: absolute;
+  top: 2630px;
+  left: 300px;
+  font-size: 20px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Paffiche {
+  font-size: 15px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 2690px;
+  left: 230px;
+  color: #353535;
+}
+
+ 
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  body {
+    overflow-x: hidden;
+    height: 3000px; 
+  }
+  
+
+
+  header {
+    font-family: Montserrat;
+    width: 100%;
+   
+}
+
+ul {
+display: flex; /* afficher les éléments de la liste en ligne */
+gap: 50px; /* ajouter un espacement horizontal de 50 pixels entre chaque élément de la liste */
+font-weight: bold; /* définir le poids de la police comme gras */
+font-size: 20px; /* définir la taille de police à 30 pixels */
+padding: 20px ; /* ajouter un espace de remplissage de 30 pixels en haut et en bas de la liste */
+background-color: #353535;
+list-style-type: none;
+height: 50px;
+}
+
+header img {
+width: 50px; /* définir la largeur de l'image à 50 pixels */
+float:left; /* aligner l'image à gauche */
+
+}
+
+li{
+position: relative;
+left: 200px;
+margin-top: 15px;
+}
+
+.logo1 {
+  position: relative;
+  right: 35px;
+  top: 68px;
+  float: right;
+  margin-right: 30px;
+  width: 21px;
+  }
+
+  .logo2 {
+    position: relative;
+    right: 35px;
+    top: 70px;
+    float: right;
+    margin-right: 70px;
+    width: 25px;
+  }
+ 
+#logoins {
+  position: relative;
+  top: 60px;
+  right: 50px;
+}
+
+section h1{
+  position: relative;
+  left: 300px;
+  top: 200px;
+  font-size: 50px;
+  font-family: Montserrat;
+  color: #353535;
+}
+
+.bien {
+  position: relative;
+  top: 100px;
+  left: 250px;
+}
+
+.mon {
+  position: relative;
+  top: -3px;
+  left: 635px;
+}
+
+.portfolio {
+  position: relative;
+  top: -50px;
+  left: 400px;
+  color: #C4A7CB;
+}
+
+#app {
+  position: relative;
+  left: 100px;
+  top: -200px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  width: 650px;
+  height: 650px;
+}
+
+#app:hover {
+  transform: scale(1.1);
+}
+
+.carre {
+  position: absolute;
+  top: 440px;
+  left: 120px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #C4A7CB; 
+}
+
+.carre2 {
+  position: absolute;
+  top: 420px;
+  left: 100px;
+  z-index: -1;
+  width: 250px;
+  height: 250px;
+  background-color: #353535; 
+}
+
+.titreapp {
+  position: absolute;
+  top: 400px;
+  left: 550px;
+  font-size: 30px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Papp {
+  font-size: 20px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 500px;
+  left: 400px;
+  color: #353535;
+}
+
+#lacoste {
+  position: relative;
+  right: 180px;
+  top: -200px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+}
+
+#lacoste:hover {
+  transform: scale(1.1);
+}
+
+.rectangle {
+  position: absolute;
+  top: 810px;
+  left: 650px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #C4A7CB; 
+}
+
+.rectangle2 {
+  position: absolute;
+  top: 770px;
+  left: 610px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #353535; 
+}
+
+.titrelacoste {
+  position: absolute;
+  top: 750px;
+  left: 200px;
+  font-size: 30px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Placoste {
+  font-size: 20px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 840px;
+  left: 100px;
+  color: #353535;
+}
+
+#maquette {
+  position: relative;
+  right: 50px;
+  top: -600px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+}
+
+#maquette:hover {
+  transform: scale(1.1);
+}
+
+.rectangle3 {
+  position: absolute;
+  top: 1130px;
+  left: 90px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #C4A7CB; 
+}
+
+.rectangle4 {
+  position: absolute;
+  top: 1170px;
+  left: 130px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #353535; 
+}
+
+.titremaquette {
+  position: absolute;
+  top: 1130px;
+  left: 480px;
+  font-size: 30px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Pmaquette {
+  font-size: 20px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 1200px;
+  left: 450px;
+  color: #353535;
+}
+
+#epicerie {
+  position: relative;
+  right: 50px;
+  top: -950px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+}
+
+#epicerie:hover {
+  transform: scale(1.1);
+}
+
+.Repicerie {
+  position: absolute;
+  top: 1520px;
+  left: 680px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #C4A7CB; 
+}
+
+.Repicerie2 {
+  position: absolute;
+  top: 1480px;
+  left: 630px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #353535; 
+}
+
+.titreepicerie {
+  position: absolute;
+  top: 1480px;
+  left: 150px;
+  font-size: 30px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Pepicerie {
+  font-size: 20px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 1550px;
+  left: 150px;
+  color: #353535;
+}
+
+#virtuose {
+  position: relative;
+  right: 50px;
+  top: -1150px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+}
+
+#virtuose:hover {
+  transform: scale(1.1);
+}
+
+.Rvirtuose {
+  position: absolute;
+  top: 1880px;
+  left: 80px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #353535; 
+}
+
+.Rvirtuose2 {
+  position: absolute;
+  top: 1830px;
+  left: 130px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #C4A7CB; 
+}
+
+.titrevirtuose {
+  position: absolute;
+  top: 1830px;
+  left: 480px;
+  font-size: 30px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Pvirtuose {
+  font-size: 20px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 1900px;
+  left: 450px;
+  color: #353535;
+}
+
+#sakura {
+  position: relative;
+  right: 110px;
+  top: -1400px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+}
+
+#sakura:hover {
+  transform: scale(1.1);
+}
+
+
+.Rsakura {
+  position: absolute;
+  top: 2250px;
+  left: 630px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #353535; 
+}
+
+.Rsakura2 {
+  position: absolute;
+  top: 2200px;
+  left: 670px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #C4A7CB; 
+}
+
+.titresakura {
+  position: absolute;
+  top: 2200px;
+  left: 110px;
+  font-size: 30px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Psakura {
+  font-size: 20px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 2300px;
+  left: 80px;
+  color: #353535;
+}
+
+#conceptis {
+  position: relative;
+  left: 80px;
+  top: -1250px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+}
+
+#conceptis:hover {
+  transform: scale(1.1);
+}
+
+.Rconceptis {
+  position: absolute;
+  top: 2600px;
+  left: 60px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #C4A7CB; 
+}
+
+.Rconceptis2 {
+  position: absolute;
+  top: 2660px;
+  left: 120px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #353535; 
+}
+
+.titreconceptis {
+  position: absolute;
+  top: 2600px;
+  left: 500px;
+  font-size: 30px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Pconceptis {
+  font-size: 20px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 2700px;
+  left: 400px;
+  color: #353535;
+}
+
+#futura {
+  position: absolute;
+  top: 3100px;
+  left: 600px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+}
+
+#futura:hover {
+  transform: scale(1.1);
+}
+
+.Rfutura {
+  position: absolute;
+  top: 3130px;
+  left: 620px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #353535; 
+}
+
+.Rfutura2 {
+  position: absolute;
+  top: 3080px;
+  left: 580px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #C4A7CB; 
+}
+
+.titrefutura {
+  position: absolute;
+  top: 3080px;
+  left: 130px;
+  font-size: 30px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Pfutura {
+  font-size: 20px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 3150px;
+  left: 100px;
+  color: #353535;
+}
+
+#affiche {
+  position: absolute;
+  top: 3500px;
+  left: 100px;
+  transition: transform 0.5s;
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+}
+
+#affiche:hover {
+  transform: scale(1.1);
+}
+
+.Raffiche {
+  position: absolute;
+  top: 3530px;
+  left: 120px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #353535; 
+}
+
+.Raffiche2 {
+  position: absolute;
+  top: 3480px;
+  left: 80px;
+  z-index: -1;
+  width:250px;
+  height: 250px;
+  background-color: #C4A7CB; 
+}
+
+.titreaffiche {
+  position: absolute;
+  top: 3450px;
+  left: 540px;
+  font-size: 30px;
+  font-family: Montserrat;
+  color: #353535;
+  font-weight: 500;
+}
+
+.Paffiche {
+  font-size: 20px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 3550px;
+  left: 400px;
+  color: #353535;
+}
+
+
+
+
+
+}
+
+
+
